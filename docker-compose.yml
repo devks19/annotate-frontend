@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
       args:
-        VITE_API_BASE_URL: http://98.130.112.17:8088/api
+        VITE_API_BASE_URL: http://18.61.22.154:8088/api
     container_name: annotate-frontend
     ports:
       - "80:5173"
